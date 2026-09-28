@@ -1,0 +1,8 @@
+uiautomation==2.0.29
+comtypes==1.4.17
+pillow==12.2.0
+winocr==0.0.15
+winrt-Windows.Media.Ocr==3.2.1
+langchain==1.4.2
+langchain-google-genai==4.4.0
+pydantic==2.13.5

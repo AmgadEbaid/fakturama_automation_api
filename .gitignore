@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.a11ytest
+raw_ocr_dump.json
+table_screenshot.png
+order_data.json
+addr_tree.txt
+debtor_tree*.txt
+misc_tree.txt
+lists_tree.txt
+product_tree.txt
+product_dialog_tree.txt
+fakturama_tree.txt
