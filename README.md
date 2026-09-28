@@ -1,10 +1,15 @@
+
+
+
+
+
 # Fakturama Automation
 
 API that ingests order receipts as images into the [Fakturama](https://www.fakturama.info/) desktop app (tested against Fakturama 2.0.0), using Microsoft UIA for UI automation and a vision model combined with OCR for image extraction.
 
 ## Demo video
 
-<video src="demo%20video/Video%20Project%204.mp4" controls="controls" style="max-width: 100%;"></video>
+<video src="https://github.com/user-attachments/assets/2f737f80-3ad9-47a6-83f4-601b37865b6c" controls="controls" style="max-width: 100%;"></video>
 
 *(2 min end-to-end run: image in, saved order out.)*
 
