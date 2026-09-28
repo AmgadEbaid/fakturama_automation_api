@@ -4,7 +4,7 @@ API that ingests order receipts as images into the [Fakturama](https://www.faktu
 
 ## Demo video
 
-`demo video/demo.mp4`
+<video src="demo%20video/Video%20Project%204.mp4" controls="controls" style="max-width: 100%;"></video>
 
 *(2 min end-to-end run: image in, saved order out.)*
 
@@ -50,12 +50,12 @@ ocr/             capture (screenshot) split from format (rows)
 ```python
 app = FakturamaApp()
 order = app.create_order()
-status, payload = order.select_debtor(expected_debtor)  # SELECTED | NOT_FOUND | CONFLICT
+status = order.select_debtor(expected_debtor)  # SELECTED | NOT_FOUND | CONFLICT
 if status == "NOT_FOUND":
     debtor = app.create_debtor()
     debtor.fill_address(billing)
     debtor.save()
-    status, payload = order.select_debtor(expected_debtor)
+    status = order.select_debtor(expected_debtor)
 
 for item in order_data.items:
     order.productItems.update_quantity(item.sku, item.qty)
